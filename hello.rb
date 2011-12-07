@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello from Sinatra on Heroku!"
+  erb :hello
 end
 
 get '*' do
