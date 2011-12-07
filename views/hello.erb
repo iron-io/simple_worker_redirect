@@ -8,20 +8,28 @@
     <style type="text/css">
         body {
             margin-top: 1.0em;
-            /*background-color: #ee2965;*/
             font-family: Helvetica, Arial, FreeSans, san-serif;
-            /*color: #ffffff;*/
         }
+
+        a:visited {
+                  color: darkblue;
+                }
+
+        a:visited#main {
+          color: red;
+        }
+
+
 
         #container {
             margin: 0 auto;
-            width: 700px;
+            width: 800px;
         }
 
         h1 {
-            font-size: 3.8em;
-            /*color: #1e90ff;*/
+            font-size: 3.1em;
             margin-bottom: 3px;
+            letter-spacing: -2px;
         }
 
         h1 .sw {
@@ -57,7 +65,6 @@
             font-size: 1.2em;
             margin-bottom: 30px;
             margin-top: 30px;
-            font-style: italic;
         }
 
         .download {
@@ -86,26 +93,26 @@
 
 <body>
 
+<br /><br />
 <div id="container">
 
-    <h1><a href="http://www.iron.io">SimpleWorker is now IronWorker</a></h1>
+    <h1><a href="http://www.iron.io" id="main">SimpleWorker is now IronWorker</a></h1>
 
     <div class="description">
-        SimpleWorker is now an <a href="http://www.iron.io">Iron.io</a> product.
-        Same great product, different name.
-        <br/><br/>
+        SimpleWorker is now an <a href="http://www.iron.io">Iron.io</a> product.  But don't worry, it's the same great product, different name.
         If you already have an account and need to login, please go to <a href="http://hud.iron.io">hud.iron.io</a>.
         <br/><br/>
         If you want to learn more or sign up, please go to <a href="http://www.iron.io">www.iron.io</a>.
     </div>
 
-  <div>
+  <br /><br />
+
+  <div id="logo" style="text-align: center;">
     <a href="http://www.iron.io"><img src="/images/logo.png"/></a>
   </div>
 
 
     <div class="footer">
-
     </div>
 
 </div>
